@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Meeting Minutes</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <header>
+        <h1>Pomodoro Timer First Brainstorm</h1>
+        <h2>Topic: Brainstorming & Architecture Setup</h2>
+        <h3>Date: April 14, 2026</h3>
+        
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#media">Recordings & Diagrams</a></li>
+                <li><a href="#feedback">Feedback Form</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <p><strong>Present:</strong> Alice, Bob, Charlie</p>
+            <p><em>Absent:</em> Dave</p>
+            <p>Note: <b>Bob</b> arrived 5 minutes late due to traffic. <i>Dave</i> is out sick today.</p>
+        </section>
+
+        <section id="agenda">
+            <h2>Meeting Agenda</h2>
+            
+            <details>
+                <summary>Unfinished Business from Last Meeting</summary>
+                <ul>
+                    <li>Decide on the application color palette</li>
+                    <li>Finalize the repository structure and branch naming rules</li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>New Business</summary>
+                <ol>
+                    <li>Discuss core timer logic and intervals</li>
+                    <li>Assign tasks for next week's sprint</li>
+                </ol>
+            </details>
+            
+            <br>
+            
+            <div>
+                <span>Miscellaneous Comments:</span> Everyone needs to review the current Pull Requests before Friday at 5:00 PM.
+            </div>
+        </section>
+
+        <section id="media">
+            <h2>Meeting Media</h2>
+            
+            <h3>Whiteboard Diagram</h3>
+            <img src="file_example_JPG_500kB.jpg" alt="Whiteboard drawing of the application architecture" width="500">
+            
+            <h3>Audio Recording</h3>
+            <audio controls>
+                <source src="file_example_MP3_1MG.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Recording</h3>
+            <video controls width="400">
+                <source src="file_example_MP4_640_3MG (1).mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <section id="feedback">
+            <h2>Post-Meeting Feedback Form</h2>
+            <form action="/submit" method="post">
+                <fieldset>
+                    
+                    <label for="meeting-date">Confirm Meeting Date:</label>
+                    <input type="date" id="meeting-date" name="meeting-date"><br><br>
+
+                    <label for="member-name">Your Name:</label>
+                    <input type="text" id="member-name" name="member-name" list="team-members"><br><br>
+                    
+                    <datalist id="team-members">
+                        <option value="Alice">
+                        <option value="Bob">
+                        <option value="Charlie">
+                        <option value="Dave">
+                    </datalist>
+
+                    <label>Did you find this meeting productive?</label><br>
+                    <input type="radio" id="yes-productive" name="productive" value="yes">
+                    <label for="yes-productive">Yes</label><br>
+                    <input type="radio" id="no-productive" name="productive" value="no">
+                    <label for="no-productive">No</label><br><br>
+
+                    <input type="checkbox" id="follow-up" name="follow-up" value="needed">
+                    <label for="follow-up">Requires follow-up meeting</label><br><br>
+
+                    <label for="department">Department:</label>
+                    <select id="department" name="department">
+                        <option value="engineering">Engineering</option>
+                        <option value="design">Design</option>
+                        <option value="product">Product</option>
+                    </select><br><br>
+
+                    <label for="comments">Additional Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+                    <button type="button">Submit Feedback</button>
+                </fieldset>
+            </form>
+        </section>
+        <p>End of meeting minutes document.</p>
+    </footer>
+
+</body>
+</html>
