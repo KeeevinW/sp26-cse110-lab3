@@ -1,4 +1,4 @@
-# Lab 2 - Starter
+# Lab 3
 
 ## Published Site
-**Link:** https://keeevinw.github.io/Lab2_Starter/
+**Link:** keeevinw.github.io/sp26-cse110-lab3
