@@ -1,7 +1,7 @@
 ---
 name: Example Lab Task
 about: A task to complete for Lab 3
-title: "[TASK] "
+title: "Issue: "
 labels: ["validation"]
 assignees: KeeevinW
 ---
