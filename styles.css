@@ -50,6 +50,14 @@ main {
     padding-right: 1.5em;
     padding-bottom: 1em;
     padding-left: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1em;
+}
+
+#media {
+    grid-column: 1 / -1;
 }
 
 header {
