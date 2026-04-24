@@ -70,3 +70,38 @@ header {
 img {
     border-radius: 6px;
 }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    min-width: 120px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+
+br {
+    display: none;
+}
+
+button {
+    display: inline-block;
+    width: 180px;
+    min-width: 120px;
+    max-width: 240px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
