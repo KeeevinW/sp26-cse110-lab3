@@ -1,0 +1,23 @@
+/* Colors + CSS variables */
+
+:root {
+    --accent-color: hsl(210, 80%, 45%);
+    --text-color:   #222222;
+}
+
+body {
+    color: var(--text-color, rgb(34, 34, 34));
+    background-color: rgba(250, 250, 252, 1);
+}
+
+h1 { color: #1a3a6b; }
+h2 { color: hsla(210, 40%, 25%, 0.95); }
+h3 { color: darkslategray; }
+
+nav a {
+    color: color(display-p3 0.1 0.35 0.7);
+}
+
+details > summary {
+    color: color-mix(in srgb, var(--accent-color) 70%, white 30%);
+}
