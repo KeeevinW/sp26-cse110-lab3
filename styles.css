@@ -8,6 +8,7 @@
 body {
     color: var(--text-color, rgb(34, 34, 34));
     background-color: rgba(250, 250, 252, 1);
+    font-family: 'Roboto', system-ui, sans-serif;
 }
 
 h1 { color: #1a3a6b; }
