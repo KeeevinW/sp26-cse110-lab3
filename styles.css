@@ -170,6 +170,42 @@ input[type="date"] {
     padding: 0.3em;
 }
 
+section p {
+    line-height: 1.5;
+}
+
+h3 + img {
+    margin-top: 0.25em;
+    display: block;
+}
+
+h2 ~ p {
+    margin-left: 0.5em;
+}
+
+button.primary {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+section:has(img) {
+    border-left: 3px solid var(--accent-color);
+    padding-left: 0.75em;
+}
+
+fieldset {
+    border: 1px solid #bbb;
+    border-radius: 6px;
+
+    & label {
+        font-weight: 500;
+    }
+
+    & button {
+        margin-top: 0.5em;
+    }
+}
+
 @media (max-width: 768px) {
     main {
         grid-template-columns: 1fr;
