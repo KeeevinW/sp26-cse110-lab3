@@ -21,3 +21,24 @@ nav a {
 details > summary {
     color: color-mix(in srgb, var(--accent-color) 70%, white 30%);
 }
+
+header {
+    background-color: hsl(210, 30%, 95%);
+    width: 90%;
+    font-size: 1rem;
+}
+
+#attendance {
+    background-color: #f7f7f9;
+    padding: 0.75em;
+    border: 2px solid #1a3a6b;
+}
+
+#agenda {
+    background-color: color-mix(in srgb, var(--accent-color) 8%, white);
+    max-width: 25cm;
+}
+
+footer small, .fine-print {
+    font-size: 10pt;
+}
