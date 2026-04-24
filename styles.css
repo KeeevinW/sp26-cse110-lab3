@@ -105,3 +105,29 @@ button {
     text-align: center;
     text-decoration: none;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#agenda {
+    position: relative;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: color-mix(in srgb, var(--accent-color) 80%, black);
+}
+
+button:hover {
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: color-mix(in srgb, var(--accent-color) 60%, black);
+    transform: translateY(1px);
+}
